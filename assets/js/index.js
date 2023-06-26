@@ -130,5 +130,5 @@ function changeImg(Collection){
     imgNumber++;
   else
     imgNumber = 1;
-  document.getElementById(Collection).src="assets/imgs/me/"+Collection+"-"+imgNumber.toString()+".jpeg";
+  document.getElementById(Collection).src="assets/imgs/Me/"+Collection+"-"+imgNumber.toString()+".jpeg";
 }
